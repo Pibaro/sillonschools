@@ -76,6 +76,10 @@ body {
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
+  body {
+    display: flex;
+  }
+
   .topnav {
     overflow: hidden;
   }
@@ -86,7 +90,7 @@ body {
     display: block;
   }
 
-  topnav.responsive {position: relative;}
+  .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -126,7 +130,7 @@ body {
   }
 
   #headerContent {
-    display: flex;
+    display: inline-table;
     height: 80%;
   }
 
