@@ -10,7 +10,7 @@
 
     <!-- Google Fonts + Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   </head>
 
 <!-- Main body -->
@@ -206,26 +206,16 @@
         </div>
 
         <div class="container" class="col-6">
-          <div style="text-align:center">
-            <h2>Nous Contacter</h2>
-            <p>Nous vous repondrons le plus tot que possible</p>
-          </div>
 
           <div class="row">
           <div class="column" id="contactColumn">
             <form action="/action_page.php">
-              <label for="fname">First Name</label>
+              <label for="fname">Nom</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select>
+              <label for="lname">Phone</label>
+              <input type="text" id="lname" name="lastname" placeholder="Votre numero..">
               <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <textarea id="subject" name="subject" placeholder="Votre message.." style="height:170px"></textarea>
               <input type="submit" value="Submit">
             </form>
           </div>
@@ -234,6 +224,35 @@
         </div>
       </row>
     </section>
+
+    <footer class="container-fluid" id="footerSection">
+      <row id="footerRow">
+        <div class="col-4" id="aboutFooter">
+          <h3>Qui Sommes-Nous?</h3>
+          <p>Sillon Schools est un système de gestion d'éducation développé par SillonBlue Technologies dans le cadre de sa mission de préparer l’Afrique Centrale à la Quatrième Révolution Industrielle</p>
+        </div>
+
+        <div class="col-4" id="videoFooter">
+          <iframe id="footVideo" width="420" height="215"
+          src="https://www.youtube.com/embed/0U3WN3f52x8">
+          </iframe>
+        </div>
+
+        <div class="col-4">
+          <h3>Nos Autres Services</h3>
+          <ul>
+            <li>Formations Professionelles</li>
+            <li>Vente des Ordinateurs</li>
+            <li>Developpement des logiciels & sites internet</li>
+            <li>Collecte & Analyse de donnees</li>
+            <li>Logiciels restaurant et gestion de documents</li>
+          </ul>
+        </div>
+      </row>
+      <row id="footerCredit">
+        <p>@2019 SillonBlue Technologies. All Rights Reserved.</p>
+      </row>
+    </footer>
 
   </body>
 </html>
