@@ -66,12 +66,12 @@ body {
 
   #headerTextLeft {
     width: 90%;
-    margin: 15% 5% 5% 5%;
+    margin: 18% 5% 5% 9%;
   }
 
   #headerImage {
     width: 80%;
-    margin-top: 15%;
+    margin: 15% 0 0 5%;
   }
 
   /* Functionalities */
@@ -270,6 +270,10 @@ body {
     margin-top: 5%;
     color: white;
     font-weight: normal;
+  }
+
+  #notreAddress {
+    margin: 5% 0 0 5%;
   }
 
   #footerRow {
