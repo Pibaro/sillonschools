@@ -15,32 +15,44 @@ body {
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-  #menuBar {
-    display: flex;
+
+  #navbarSupportedContent {
+    width: inherit;
+    background-color: blue;
   }
 
-  #mainMenu {
-    position: fixed;
-    width: 100%;
+  .navbar-nav mr-auto {
+    margin-right: -10%;
+  }
+
+  #menuBar {
+    margin: 0 -2% 0 -1%;
+    background: rgb(28,69,135);
+    background: linear-gradient(90deg, rgba(28,69,135,1) 18%, rgba(32,119,128,1) 52%, rgba(122,170,204,1) 100%);
+    position: sticky;
   }
 
   .navbar-brand {
-    margin: 0% 31% 0 3%;
+    margin: 2% 31% 0 3%;
     z-index: 5;
-    background-color: white;
-    height: 120px;
+    background-color: inherit;
+    height: 90px;
+    width: 13%;
   }
 
   #mainLogo {
-    width: 200px;
-    height: 140px;
-    margin: -16% 5px 0 0;
+    width: 80%;
+    height: 100%;
+    margin: 0 0 0 2%;
   }
 
-  .topnav {
-    overflow: hidden;
+  #topnav {
     z-index: 5;
-    padding-top: 3%;
+    padding-right: 2%;
+  }
+
+  .nav-link {
+    color: white !important;
   }
 
   .topnav a {
@@ -72,8 +84,8 @@ body {
     background: rgb(28,69,135);
     background: linear-gradient(90deg, rgba(28,69,135,1) 18%, rgba(32,119,128,1) 52%, rgba(122,170,204,1) 100%);
     color: white;
-    padding: 0 20px;
-    margin-top: -7%;
+    padding: 0 23px;
+    margin: -7% 2% 0 0;
     border: none;
     cursor: pointer;
     border-radius: 4px;
@@ -96,7 +108,7 @@ body {
   #headerContent {
     display: flex;
     height: 80%;
-    padding-top: 4%;
+    padding-top: 0%;
   }
 
   #headerImageDiv {
@@ -109,12 +121,12 @@ body {
 
   #headerTextLeft {
     width: 90%;
-    margin: 28% 5% 5% 9%;
+    margin: 17% 5% 5% 9%;
   }
 
   #headerImage {
     width: 80%;
-    margin: 25% 0 0 5%;
+    margin: 15% 0 0 5%;
   }
 
   /* Functionalities */
@@ -169,7 +181,7 @@ body {
 
   #VP1Content {
     width: 90%;
-    margin: 20% 0 0 5%;
+    margin: 14% 0 0 5%;
   }
 
   #valueProposition2 {
@@ -313,7 +325,7 @@ body {
   #footerSection {
     background: rgb(28,69,135);
     background: linear-gradient(90deg, rgba(28,69,135,1) 18%, rgba(32,119,128,1) 52%, rgba(122,170,204,1) 100%);
-    height: 400px;
+    height: 340px;
     margin-top: 5%;
     color: white;
     font-weight: normal;

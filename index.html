@@ -17,15 +17,39 @@
   <body>
     <header class="container-fluid" id="mainHeader">
       <!-- Main Menu -->
-        <div id="mainMenu">
-          <div class="topnav" id="topnav">
-            <a class="navbar-brand" href="index.html"><img src="images/sillonblue2.png" href="index.html" id="mainLogo"/></a>
-            <a class="active" href="#functionalities">Qui Sommes-Nous?</a>
-            <a href="#contactUs">Contact</a>
-            <a href="http://sillonschools.com" target="_blank">Créer un compte</a>
-            <a href="http://sillonschools.com" target="_blank" id="menuButtonContainer"><button id="menuButton">Connexion</button></a>
-          </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" class="container-fluid" id="menuBar">
+        <a class="navbar-brand" href="#"><img src="images/sillonblue2.png" id="mainLogo"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="topnav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#functionalities">Qui Sommes-Nous?<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#contactUs">Contact <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="http://sillonschools.com" target="_blank">Creer un Compte<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <a href="http://sillonschools.com" target="_blank"><button type="submit" id="menuButton">Connexion</button></a>
         </div>
+      </nav>
+
+    <!-- <div id="mainMenu">
+      <div class="topnav" id="topnav">
+        <a class="navbar-brand" href="index.html"><img src="images/sillonblue2.png" href="index.html" id="mainLogo"/></a>
+        <a class="active" href="#functionalities">Qui Sommes-Nous?</a>
+        <a href="#contactUs">Contact</a>
+        <a href="http://sillonschools.com" target="_blank">Créer un compte</a>
+        <a href="http://sillonschools.com" target="_blank" id="menuButtonContainer"><button id="menuButton">Connexion</button></a>
+      </div>
+    </div> -->
 
       <!-- Header -->
       <row id="headerContent">
@@ -92,9 +116,9 @@
           <h5 class="card-header" id="cardheader"></h5>
           <h5 class="card-header">Deliberation</h5>
           <div class="card-body">
-            <h4 class="card-title">Donnée, non Instinct</h4>
+            <h4 class="card-title">0 Instinct</h4>
             <ul class="card-text">
-            <p class="card-text">Deliberez vous basant sur:</p>
+            <p class="card-text">Deliberez sur base de:</p>
               <li>la conduite</li>
               <li>la performance du passé</li>
               <li>le paiement</li>
